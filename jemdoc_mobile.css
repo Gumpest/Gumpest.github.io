@@ -1,0 +1,42 @@
+@import url("jemdoc.css");
+
+body { 
+  margin-top: 0px; 
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  max-width: 960px; 
+  font-size: 80%;
+}
+
+h1 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#fwtitle #toptitle {
+	padding-left: 0.5em;
+	margin-bottom: 0em;
+}
+
+div#toptitle {
+	padding-bottom: 0.2em;
+	margin-bottom: 0em;
+	/*border-bottom: 3px double gray;*/
+}
+
+ul {
+	padding-left: 1em;
+}
+
+.icon {
+	height: 20px
+}
+
+.tdw {
+	padding-left: 1em;
+}
