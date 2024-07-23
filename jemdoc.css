@@ -187,17 +187,17 @@ strong {
 
 
 h1, h2, h3 {
-	/* color: #527bbd; */
-	font-family: Optima;
+	/* color: var(--theme-color); */
+	font-family: 'Nunito';
   	/* color: #c50e0e; */
   	color: #000000;
 	margin-top: 0.7em;
 	margin-bottom: 0.5em;
 	padding-bottom: 0.2em;
 	line-height: 1.0;
-	padding-top: 0.5em;
+	/* padding-top: 0.5em; */
 	/* border-bottom: 1px solid #aaaaaa; */
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 h1 {
@@ -208,7 +208,9 @@ h1 {
 }
 
 h2 {
-	padding-top: 0.8em;
+	padding-top: 1.8em;
+	border-bottom: 1px solid #b7b7b7; 
+	/* padding-top: 0.8em; */
 	font-size: 125%;
 }
 
