@@ -20,9 +20,9 @@ body {
 } */
 
 body { 
-  font-family: 'Lato','Lora',Optima,Verdana,Arial,sans-serif,'微软雅黑','宋体';
+  font-family: 'Nunito','Lora',Optima,Verdana,Arial,sans-serif,'微软雅黑','宋体';
   color: #000;
-  background-color: #ffffff; 
+  background-color: #424242; 
   text-align:left; /* for IE */
   margin-top: 0px; 
   margin-bottom: 0px;
@@ -32,7 +32,7 @@ body {
   padding-right: 50px;
   padding-top: 30px;
   padding-bottom: 0px;
-  max-width: 65%; 
+  max-width: 60%; 
   font-size: 100%;
   line-height: 150%;
 }
