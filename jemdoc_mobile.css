@@ -45,10 +45,10 @@ body {
 }
 
 .profile-pic {
-	width: 20%; /* 图片宽度为50% */
+	width: 15%; /* 图片宽度为50% */
 	max-width: none; /* 取消原来的max-width限制 */
 	margin-left: 10px;
-	margin-right: 25px; /* 图片和文字之间留一些间距 */
+	margin-right: 23px; /* 图片和文字之间留一些间距 */
 	margin-bottom: 0px;
 	border-radius: 50%;
 	margin-top: 0;
@@ -83,6 +83,6 @@ ul {
 }
 
 .photo {
-	width: 30%;
+	width: 40%;
 }
 
