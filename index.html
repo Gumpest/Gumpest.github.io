@@ -235,6 +235,7 @@ First-author: <venue>ICML</venue>x 1, <venue>NeurIPS</venue>x 1, <venue>CVPR</ve
 	  <span class="more-authors"
 	        data-short="7 more authors,"
 	        data-full="Wenzhao Zheng, Tao Huang, Kuan Cheng, Denis Gudovskiy, Tomoyuki Okuno, Yohei Nakata, Kurt Keutzer,"
+			data-expanded="false"
 	        onclick="toggleAuthors(this)"
 	        title="click to view more authors"
 	        style="cursor:pointer; color:#6c757d;">
@@ -579,18 +580,19 @@ First-author: <venue>ICML</venue>x 1, <venue>NeurIPS</venue>x 1, <venue>CVPR</ve
 
 <script>
 function toggleAuthors(el) {
-  const shortText = el.dataset.short;
-  const fullText = el.dataset.full;
+  const expanded = el.dataset.expanded === "true";
 
-  el.innerText =
-    el.innerText === shortText
-      ? fullText
-      : shortText;
+  el.textContent = expanded
+    ? el.dataset.short
+    : el.dataset.full;
+
+  el.dataset.expanded = String(!expanded);
 }
 </script>
 
 
 </html>
+
 
 
 
