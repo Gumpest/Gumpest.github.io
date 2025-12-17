@@ -231,7 +231,19 @@ First-author: <venue>ICML</venue>x 1, <venue>NeurIPS</venue>x 1, <venue>CVPR</ve
 <ul id="publications">
     <li first_authored=true category="VLM">
         <venue>C1</venue><pt>SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference</pt><br>
-	<b>Yuan Zhang</b><g>, ChunKai Fan, Junpeng Ma, Wenzhao Zheng, Tao Huang, Kuan Cheng, Kurt Keutzer, Shanghang Zhang</g><br>
+	  <b>Yuan Zhang</b>,
+	  ChunKai Fan,
+	  Junpeng Ma,
+	  and
+	  <span class="more-authors"
+	        data-short="5 more authors"
+	        data-full="Wenzhao Zheng, Tao Huang, Kuan Cheng, Kurt Keutzer, Shanghang Zhang"
+	        onclick="toggleAuthors(this)"
+	        title="click to view more authors"
+	        style="cursor:pointer; color:#1a73e8;">
+	    5 more authors
+	  </span>
+	  <br>
         <em>International Conference on Machine Learning</em> (<b>ICML</b>), 2025.</em>
         <p>
             <a href="https://arxiv.org/pdf/2410.04417" class="button-59">PDF</a>
@@ -558,7 +570,21 @@ First-author: <venue>ICML</venue>x 1, <venue>NeurIPS</venue>x 1, <venue>CVPR</ve
     }
 </script>
 
+<script>
+function toggleAuthors(el) {
+  const shortText = el.dataset.short;
+  const fullText = el.dataset.full;
+
+  el.innerText =
+    el.innerText === shortText
+      ? fullText
+      : shortText;
+}
+</script>
+
+
 </html>
+
 
 
 
